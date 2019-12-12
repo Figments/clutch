@@ -20,3 +20,11 @@ extern crate serde_json;
 /* Sys */
 extern crate ron;
 #[macro_use] extern crate bitflags;
+
+pub mod prelude {
+    //! `clutch::prelude` provides re-exports for commonly-used traits and types 
+    //! for the sake of convenience, alongside key features available in the 
+    //! `bson` and `mongodb` crates.
+    
+    
+}
